@@ -1,6 +1,6 @@
 ---
 - name: Nginx Server Installation
-  hosts: training
+  hosts: serdar
   become: yes
   tasks:
   - name: Install latest nginx
